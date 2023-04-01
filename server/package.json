@@ -1,0 +1,25 @@
+{
+  "name": "to_do_classic_for_beginner",
+  "version": "1.0.0",
+  "description": "This project which  learning for beginner",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuluu2k/to_do_classic_for_beginer.git"
+  },
+  "keywords": [
+    "beginner",
+    "todo",
+    "learning",
+    "study"
+  ],
+  "author": "vuluu040320@gmail.com <vuluu2k>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vuluu2k/to_do_classic_for_beginer/issues"
+  },
+  "homepage": "https://github.com/vuluu2k/to_do_classic_for_beginer#readme"
+}
