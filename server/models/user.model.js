@@ -74,4 +74,22 @@ User.removeById = (id, callback) => {
 	});
 };
 
+User.findByName = (username, callback) => {
+	conn.query(
+		'SELECT * FROM users WHERE username = ?',
+		username,
+		(error, result) => {
+			if (error) {
+				callback(error, null);
+				return null;
+			}
+
+			if (result.length) {
+				callback(null, result[0]);
+				return result[0];
+			}
+		}
+	);
+};
+
 export default User;

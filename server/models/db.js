@@ -6,6 +6,7 @@ const conn = mysql.createConnection({
 	user: dbConfig.USER,
 	password: dbConfig.PASSWORD,
 	database: dbConfig.DB_NAME,
+	port: 3306,
 });
 
 export default conn;
